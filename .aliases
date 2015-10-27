@@ -1,0 +1,41 @@
+# Git aliases
+alias g='git '
+alias gs='git status'
+alias gst='git staged'
+alias gd='git diff'
+
+alias co="checkout"
+alias ci="commit"
+alias br="branch"
+alias aa="add -A"
+alias staged="diff --cached"
+
+# Aliases
+alias ali='cat ~/.aliases'
+alias edali='vim ~/.aliases && . ~/.profile'
+alias newali='. ~/.profile'
+
+# Vagrant Aliases
+alias 162='cd ~/cs162_vm'
+alias v='vagrant '
+alias vstart='cd ~/cs162_vm && vagrant up && vagrant ssh'
+alias vreset='vagrant halt && cd ~/cs162_vm && vagrant up && vagrant ssh'
+
+# Bash Commands
+# alias ls='ls -F'
+
+ # Tmux
+alias tnew='tmux new -s'
+alias tjoin='tmux a -t'
+alias tlist='tmux list-sessions'
+alias tkill='tmux kill-session -t'
+
+# Classes
+alias os='cd ~/Desktop/cs_162'
+alias net='cd ~/Desktop/cs_168'
+# Interview
+alias crack='cd /Users/steffan/Desktop/Recruiting/Full\ Time\ Job\ Search/CrackingTheCodingInterview && open /Users/steffan/Desktop/Recruiting/Full\ Time\ Job\ Search/CrackingTheCodingInterview/Cracking\ the\ Coding\ Interview.pdf'
+
+# 162 Proj 1
+alias testall='python simulator.py --no-interactive --default-switch-type=dv_router examples.convergence0 && python simulator.py --no-interactive --default-switch-type=dv_router examples.convergence1 && python simulator.py --no-interactive --default-switch-type=dv_router examples.expire0 && python simulator.py --no-interactive --default-switch-type=dv_router examples.link_down1 && python simulator.py --no-interactive --default-switch-type=dv_router examples.link_down2 && python simulator.py --no-interactive --default-switch-type=dv_router examples.poison_reverse && python simulator.py --no-interactive --default-switch-type=dv_router examples.shortest_path0 && python simulator.py --no-interactive --default-switch-type=dv_router examples.shortest_path1 && python simulator.py --no-interactive --default-switch-type=dv_router examples.test_failure && python simulator.py --no-interactive --default-switch-type=dv_router examples.test_simple && python simulator.py --no-interactive --default-switch-type=dv_router examples.trigger0 && python simulator.py --no-interactive --default-switch-type=dv_router examples.trust_neighbors '
+
